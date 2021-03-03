@@ -9,6 +9,8 @@ namespace GenericsIntro
             MyList<string> isimler = new MyList<string>(); //jenerik bi class old için türünüğ yazman lazım yoksa kızar
             isimler.Add("engin");
 
+            Console.WriteLine(isimler.Length);
+
         }
     }
 }
